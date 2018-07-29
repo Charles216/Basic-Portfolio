@@ -7,13 +7,19 @@ body{
     background-image: url('http://sfwallpaper.com/images/background-wallpaper-images-15.jpg')
 }
 .nameBox{
+    box-sizing: border-box;
     background-color: #6fce06;
-    height: 80px;
-    width: 300px;
-    margin-left: 200px;
+    height: 53px;
+    width: 260px;
+    margin-top: 2px;
+    margin-left: 193px;
     padding-top:2px;
     text-align: center;
-    border: black solid 1px;
+    border-top: black solid 2x;
+    border-bottom: black solid 2px;
+    position: absolute;
+    
+
 }
 
 ul{
@@ -45,6 +51,8 @@ li a:hover{
 h1{
     display: inline-block;
     color: white;
+    margin: auto;
+    margin-top: 5px;
 }
 #navLinks{
     color: #777;
