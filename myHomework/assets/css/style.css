@@ -1,12 +1,13 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body{
     background-image: url('http://sfwallpaper.com/images/background-wallpaper-images-15.jpg')
 }
 .nameBox{
-    background-color: rgb(39, 170, 39);
+    background-color: #6fce06;
     height: 80px;
     width: 300px;
     margin-left: 200px;
@@ -39,7 +40,7 @@ li a{
 }
 
 li a:hover{
-    background-color: teal;
+    background-color: #6fce06;
 }
 h1{
     display: inline-block;
@@ -91,13 +92,77 @@ h2{
     
 }
 
-
 footer{
     background-color: #666;
     text-align: center;
-    color: #777;
-    border-top: solid 3px green;
+    color: #6fce06;
+    border-top: solid 3px #6fce06;
     margin-bottom: none;
+}
+
+#projectSection{
+    border: black 2px solid;
+    width: 960px;
+    margin: auto;    
+    margin-top: 40px;
+    padding: 10px;    
+    background-color: #fff;  
+}
+
+.htmlSection{
+    margin-left: 50px;
+    display: block;
+    width: 33%;
+    float: left;
+    border: solid black 2px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.cssSection{
+    display: block;
+    width: 33%;
+    float: left;
+    border: solid black 2px;
+    margin-left: 100px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.bootstrapSection{
+    clear: left;
+    display: block;
+    width: 33%;
+    float: left;
+    border: solid 2px black;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.mongoSection{
+    display: block;
+    width: 33%;
+    float: left;
+    border: solid 2px black;
+    margin-left: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.nodeSection{
+    clear: left;
+    display: block;
+    width: 33%;
+    border: solid 2px black;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .contactInfo{
